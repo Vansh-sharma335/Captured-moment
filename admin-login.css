@@ -1,0 +1,57 @@
+/* admin-login.css */
+
+/* Container for the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    background: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Add padding to prevent content from touching edges */
+}
+
+/* Styling for the login form */
+.login-form {
+    background-color: rgba(255, 255, 255, 0); /* Background color for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(218, 218, 213, 0.393); /* Updated shadow effect */
+    width: 100%; /* Use full width of the container */
+    max-width: 300px; /* Fixed max width for the form */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Adjust margin for spacing */
+    border: 1px solid #cccccc42;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff00;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0057b300;
+}
